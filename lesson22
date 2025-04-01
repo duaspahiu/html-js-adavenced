@@ -1,0 +1,5 @@
+<?php
+$sportsteam[12,24,36];
+var_dump(array(Sport));
+weather = array (20,30,25,26,20,28,25);
+?>
