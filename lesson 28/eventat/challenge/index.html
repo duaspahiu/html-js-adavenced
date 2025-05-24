@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style src="style.css"></style>
+</head>
+<body>
+    <script src="main.js"></script>
+    <style>
+        .box {
+            width: 200px;
+            height: 100px;
+            background-color: lightblue;
+            border: 2px solid blue;
+            transition: all 0.3s ease;
+        }
+        .highlight {
+            background-color: yellow;
+            border-color: orange;
+        }
+    </style>
+    
+    <div id="myBox" class="box">Kjo është një kuti</div>
+    <button onclick="shtoHeqKlase()">Ndrysho Ngjyrën</button>
+    
+    <script>
+    function shtoHeqKlase() {
+        let box = document.getElementById('myBox');
+        box.classList.toggle('highlight'); // shton ose heq klasën highlight
+    }
+    </script>
+</body>
+</html>
